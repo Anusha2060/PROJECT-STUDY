@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo{
-    height: 60px;
-    width: 60px;
+body{
+    margin: 0px;
+    padding: 0px;
 }
