@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="">
       <Router>
-        <div className="h-110 ">
+        <div className="">
           <Nav />
         </div>
         <div>
@@ -25,7 +25,7 @@ function App() {
             <Route path="/services" element={<Services />} />
           </Routes>
         </div>
-        <div className="h-100  relative">
+        <div className="relative">
           <Footer />
         </div>
       </Router>
