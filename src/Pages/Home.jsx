@@ -6,8 +6,55 @@ import Services from "../Components/Pagecomponents/Home/Services";
 import TestimonialsandFAQ from "../Components/Pagecomponents/Home/TestimonialsandFAQ";
 import Blog from "../Components/Pagecomponents/Home/Blog";
 import Aboutsection from "../Components/Pagecomponents/Home/About";
+import blogone from "../assets/n2.jpg";
 
 function Home() {
+  const blogdata = [
+    {
+      image: blogone,
+      date: new Date().toLocaleString("default", {
+        year: "numeric",
+        month: "long",
+        day: "2-digit",
+      }),
+      title: "Far far away, behind the word mountains",
+      description:
+        "Vokalia and Consonantia, there live the blind texts. Separated they live.",
+    },
+    {
+      image: blogone,
+      date: new Date().toLocaleString("default", {
+        year: "numeric",
+        month: "long",
+        day: "2-digit",
+      }),
+      title: "Far far away, behind the word mountains",
+      description:
+        "Vokalia and Consonantia, there live the blind texts. Separated they live.",
+    },
+    {
+      image: blogone,
+      date: new Date().toLocaleString("default", {
+        year: "numeric",
+        month: "long",
+        day: "2-digit",
+      }),
+      title: "Far far away, behind the word mountains",
+      description:
+        "Vokalia and Consonantia, there live the blind texts. Separated they live.",
+    },
+    {
+      image: blogone,
+      date: new Date().toLocaleString("default", {
+        year: "numeric",
+        month: "long",
+        day: "2-digit",
+      }),
+      title: "Far far away, behind the word mountains",
+      description:
+        "Vokalia and Consonantia, there live the blind texts. Separated they live.",
+    },
+  ];
   return (
     <div className="grid gap-28" >
       <Banner>
@@ -44,7 +91,16 @@ function Home() {
       <Aboutsection/>
       <Services/>
       <TestimonialsandFAQ/>
-      <Blog/>
+      <div className="flex flex-col gap-14 w-10/12 mx-auto">
+        <div className=" flex flex-col gap-1">
+          <div className= "text-orange-500 font-semibold text-2xl ">BLOG</div>
+          <div className="text-6xl font-bold ">Recent Posts</div>
+        </div>
+        <div>
+      <Blog blogdata={blogdata}/>
+
+        </div>
+      </div>
     </div>
   );
 }

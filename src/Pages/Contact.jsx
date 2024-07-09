@@ -13,6 +13,15 @@ function Contact() {
           </div>
         </div>
       </Banner>
+      <div className='grid grid-cols-5'>
+        <div className='col-span-2'>FORM</div>
+        <div className='grid grid-cols-2 gap-4 col-span-3'>
+          <input type="text" placeholder='Your Name' className='px-3 w-full h-10 rounded-sm border outline-orange-500'  />          
+          <input type="text" placeholder='Your Email' className='px-3 w-full h-10 rounded-sm border outline-orange-500'  />          
+          <input type="text" placeholder='Subject' className='px-3 col-span-2 w-full h-10 rounded-sm border outline-orange-500' />  
+          <textarea name="" placeholder='Your message' rows={8} className='px-3 resize-none col-span-2  w-full rounded-sm border outline-orange-500' id=""></textarea>        
+        </div>
+      </div>
     </div>
   )
 }
