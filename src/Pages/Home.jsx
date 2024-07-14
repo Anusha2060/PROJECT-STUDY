@@ -7,8 +7,11 @@ import TestimonialsandFAQ from "../Components/Pagecomponents/Home/Testimonialsan
 import Blog from "../Components/Pagecomponents/Home/Blog";
 import Aboutsection from "../Components/Pagecomponents/Home/About";
 import blogone from "../assets/n2.jpg";
-
+import { useEffect } from "react";
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const blogdata = [
     {
       image: blogone,

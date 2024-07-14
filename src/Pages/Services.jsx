@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from "../Components/UI/banner";
 import { LuLamp } from "react-icons/lu";
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const servicedata=[
     {
       title:'Reduce costs to a minimum',

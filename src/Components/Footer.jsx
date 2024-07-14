@@ -10,7 +10,8 @@ function Footer() {
           <div className="text-3xl font-semibold">
             Begin your adventurous journey here.
           </div>
-          <div className="w-fit h-fit px-8 py-2 rounded-full border border-white capitalize ">
+          <div className="w-fit h-fit px-8 py-2 rounded-full border border-white capitalize  hover:bg-white hover:text-orange-500 hover:font-medium
+         transition-all ease-in-out duration-700 delay-75 cursor-pointer  bg-orange-500 text-white ">
             get started
           </div>
         </div>

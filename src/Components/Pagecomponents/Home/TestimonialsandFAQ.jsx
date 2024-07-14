@@ -65,12 +65,12 @@ function TestimonialsandFAQ() {
     <div className="w-10/12 mx-auto grid grid-cols-2 gap-10 ">
       <div className="flex flex-col gap-6 ">
         <div className="flex flex-col gap-1">
-          <div className="text-orange-500 uppercase font-bold text-xl">
+          <div className="text-orange-500 uppercase font-bold text-xl animatedslide">
             Happy customer
           </div>
-          <div className="uppercase text-4xl font-bold">Testimonials</div>
+          <div className="uppercase text-4xl font-bold animatedslide">Testimonials</div>
         </div>
-        <div className="relative overflow-clip h-full w-full">
+        <div className="relative overflow-clip h-full w-full animatedslide">
           {Testimonialsdata.map((val, i) => {
             return (
               <div

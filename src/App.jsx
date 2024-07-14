@@ -8,10 +8,10 @@ import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
 import Blogs from "./Pages/Blog";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { useEffect } from "react";
 function App() {
   const [count, setCount] = useState(0);
-
+ 
   return (
     <div className="">
       <Router>

@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../Components/UI/banner";
 import Blog from "../Components/Pagecomponents/Home/Blog";
 import blogone from "../assets/n2.jpg";
 
 function Blogs() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [pagee, setpagee] = useState(0);
   const blogdata = [
     {

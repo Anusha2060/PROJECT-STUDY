@@ -3,15 +3,15 @@ import imgone from "../../../assets/about.jpeg";
 import imgtow from "../../../assets/about1.jpeg";
 function Aboutsection() {
   return (
-    <div className="w-10/12 mx-auto grid grid-cols-2 gap-5 ">
+    <div className="w-10/12 mx-auto grid grid-cols-2 gap-5">
       <div className="flex flex-col justify-between gap-6 ">
         <div className="flex flex-col capitalize">
-          <div className="text-xl text-orange-500 font-medium">about us</div>
-          <div className="text-5xl font-bold tracking-wider leading-tight ">
+          <div className="text-xl text-orange-500 font-medium animatedslide">about us</div>
+          <div className="text-5xl font-bold tracking-wider leading-tight animatedslide">
             Explore All Corners of The World With Us
           </div>
         </div>
-        <div className="w-11/12 text-gray-600">
+        <div className="w-11/12 text-gray-600 animatedslide">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
           live in Bookmarksgrove right at the coast of the Semantics, a large
@@ -22,11 +22,11 @@ function Aboutsection() {
         </div>
 
         <div className="w-fit h-fit px-8 py-2 mt-4 hover:bg-white hover:text-orange-500 hover:font-medium
-         transition-all ease-in-out duration-700 delay-75 cursor-pointer rounded-full border border-orange-500 capitalize bg-orange-500 text-white ">
+         transition-all ease-in-out duration-700 delay-75 cursor-pointer rounded-full border border-orange-500 capitalize bg-orange-500 text-white animatedslide ">
           read more
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-5 place-content-center mt-8">
+      <div className="grid grid-cols-2 gap-5 place-content-center mt-8 animatedslide">
         <img
           src={imgone}
           alt="imgone"
