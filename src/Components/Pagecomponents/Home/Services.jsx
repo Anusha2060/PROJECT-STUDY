@@ -1,8 +1,13 @@
 import React from "react";
-import blogone from "../../../assets/n2.jpg";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import img1 from '../../../assets/image0.jpeg';
+import img2 from '../../../assets/image1.jpeg';
+import img3 from '../../../assets/image3.jpeg';
+import img4 from '../../../assets/image5.jpeg';
+import img5 from '../../../assets/image6.jpeg';
+import img6 from '../../../assets/image7.jpeg';
 
 function Services() {
   const responsive = {
@@ -24,51 +29,51 @@ function Services() {
   };
   const Servicedata = [
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img1,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img2,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img3,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img4,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img5,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
     {
-      image: blogone,
-      title: "kisan mahat",
+      image: img6,
+      title: "Anusha GC",
       description:
-        "kisan loves me idk whyyyyy and the shockin thing is I also love him xoxo.",
-    },
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
   ];
 
   return (
     <div className="w-10/12 mx-auto flex flex-col gap-10">
       <div className="grid grid-cols-5 gap-6 ">
         <div className="w-10/12 col-span-3 flex flex-col gap-4">
-          <div className="text-orange-500 font-bold text-2xl animatedslide">
+          <div className="text-orange-500 font-bold text-2xl animatedslide playflair">
             What we serve
           </div>
-          <div className="font-bold text-5xl leading-[54px] animatedslide">
+          <div className="font-bold text-5xl leading-[54px] animatedslide playflair">
             We Provide Top Destinations{" "}
           </div>
           <div className="text-gray-700 w-10/12 text-md animatedslide">
@@ -99,7 +104,7 @@ function Services() {
             return (
               <div className={`flex flex-col mx-2 gap-6 `}>
                 <div className="h-[500px] w-full relative">
-                  <div className="h-16 w-16 z-10 flex justify-center items-center text-xl font-medium shadow-md bg-white text-orange-500 absolute bottom-0 right-0 ">
+                  <div className=" h-16 w-16 z-10 flex justify-center items-center text-xl font-medium shadow-md bg-white text-orange-500 absolute bottom-0 right-0 ">
                     $ 490
                   </div>
                   <img
@@ -108,8 +113,8 @@ function Services() {
                     alt=""
                   />
                 </div>
-                <div className="flex flex-col gap-1">
-                  <div className="text-4xl font-semibold w-10/12">
+                <div className="flex flex-col gap-2">
+                  <div className="text-4xl font-semibold w-10/12 playflair">
                     {val.title}
                   </div>
                   <div className="text-gray-500">{val.description}</div>

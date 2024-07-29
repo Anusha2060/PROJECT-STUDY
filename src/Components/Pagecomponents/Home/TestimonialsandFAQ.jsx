@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { IoMdAdd } from "react-icons/io";
 import { FaMinus } from "react-icons/fa6";
-import man from "../../../assets/about.jpeg";
-import manone from "../../../assets/about1.jpeg";
-import mantwo from "../../../assets/n2.jpg";
+import person1 from '../../../assets/person1.jpg';
+import person2 from '../../../assets/person2.jpg';
+import person3 from '../../../assets/person3.jpg';
 
 function TestimonialsandFAQ() {
   const [show, setshow] = useState(0);
@@ -31,19 +31,19 @@ function TestimonialsandFAQ() {
       name: "Anusha Gharti Chhetri",
       position: "CEO at ABC",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
-      image: man,
+      image: person1,
     },
     {
       name: "Kisan Mahat",
       position: "Boss at ABC",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
-      image: manone,
+      image: person2,
     },
     {
       name: "ABCDEFGHIJK SANDNEUHDWDAK",
       position: "XNSUCUWJNSZ at  chehj",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
-      image: mantwo,
+      image: person3,
     },
   ];
   useEffect(() => {
@@ -65,10 +65,10 @@ function TestimonialsandFAQ() {
     <div className="w-10/12 mx-auto grid grid-cols-2 gap-10 ">
       <div className="flex flex-col gap-6 ">
         <div className="flex flex-col gap-1">
-          <div className="text-orange-500 uppercase font-bold text-xl animatedslide">
+          <div className="text-orange-500 uppercase font-bold text-xl animatedslide playflair">
             Happy customer
           </div>
-          <div className="uppercase text-4xl font-bold animatedslide">Testimonials</div>
+          <div className="uppercase text-4xl font-bold animatedslide playflair">Testimonials</div>
         </div>
         <div className="relative overflow-clip h-full w-full animatedslide">
           {Testimonialsdata.map((val, i) => {
@@ -83,15 +83,15 @@ function TestimonialsandFAQ() {
                 } absolute transition-all ease-in-out duration-700 delay-150`}
               >
                 <img
-                  className="h-24 w-24 rounded-full "
+                  className="h-24 object-cover w-24 rounded-full "
                   src={val.image}
                   alt=""
                 />
                 <div className="flex flex-col ">
-                  <div className="text-orange-500 text-2xl font-semibold ">
+                  <div className="text-orange-500 text-2xl font-semibold playflair ">
                     {val.name}
                   </div>
-                  <div className="text-gray-700 text-sm">{val.position}</div>
+                  <div className="text-gray-700 text-sm playflair">{val.position}</div>
                 </div>
                 <div className="relative mt-3 w-11/12">
                   <div className="text-5xl font-bold rotate-6 absolute -top-8 left-0">
@@ -116,9 +116,9 @@ function TestimonialsandFAQ() {
       </div>
 
       <div className="grid gap-6 ">
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 playflair">
           <div className="text-orange-500 uppercase font-bold text-xl">FAQ</div>
-          <div className="uppercase text-4xl font-bold">
+          <div className="uppercase text-4xl font-bold ">
             Frequently Asked Questions
           </div>
         </div>
@@ -143,7 +143,7 @@ function TestimonialsandFAQ() {
                   }`}
                 >
                   <div>{show == i ? <FaMinus /> : <IoMdAdd />}</div>
-                  <div className="first-letter:capitalize">{val.title}</div>
+                  <div className="first-letter:capitalize playflair">{val.title}</div>
                 </div>
                 <div
                   className={`px-4 pt-2 text-gray-600 ${

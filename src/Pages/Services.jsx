@@ -52,7 +52,7 @@ function Services() {
     <div>
       <Banner>
         <div className="h-full w-full flex flex-col justify-center items-center gap-3 text-white">
-          <div className="capitalize text-5xl font-bold">Services</div>
+          <div className="capitalize text-5xl font-bold playflair">Services</div>
           <div className="w-5/12 text-md text-center">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
@@ -60,7 +60,7 @@ function Services() {
         </div>
       </Banner>
       <div className='w-10/12 mx-auto pt-14 flex flex-col gap-10'>
-        <div className='py-8 text-center text-5xl font-bold capitalize'>Our services includes...</div>
+        <div className='py-8 text-center text-5xl font-bold capitalize playflair'>Our services includes...</div>
         <div className='grid grid-cols-4 gap-14'>
           {
             servicedata.map((val,i)=>{
@@ -68,7 +68,7 @@ function Services() {
                 <div className="flex flex-col gap-6 justify-center items-center">
                   <div className='h-20 w-20 rounded-full bg-orange-100 text-orange-500 text-3xl flex justify-center items-center'>{val.image}</div>
                   <div className='flex flex-col gap-2'>
-                    <div className='text-center font-semibold text-xl'>{val.title}</div>
+                    <div className='text-center font-semibold text-xl playflair'>{val.title}</div>
                     <div className='text-center text-gray-600 text-sm'>{val.description}</div>
                   </div>
                 </div>

@@ -15,7 +15,7 @@ function Blog( {blogdata}) {
               />
               <div className="px-4">
                 <div className="text-gray-700 text-sm">{val.date}</div>
-                <div className="text-md  font-semibold hover:text-orange-500">
+                <div className="text-md  font-semibold hover:text-orange-500 playflair">
                   {val.title}
                 </div>
                 <div className="text-sm text-gray-700 py-2 pb-4">

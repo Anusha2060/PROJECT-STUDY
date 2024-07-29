@@ -6,12 +6,12 @@ function Aboutsection() {
     <div className="w-10/12 mx-auto grid grid-cols-2 gap-5">
       <div className="flex flex-col justify-between gap-6 ">
         <div className="flex flex-col capitalize">
-          <div className="text-xl text-orange-500 font-medium animatedslide">about us</div>
-          <div className="text-5xl font-bold tracking-wider leading-tight animatedslide">
+          <div className="text-xl text-orange-500 font-medium animatedslide playflair">about us</div>
+          <div className="text-5xl font-bold tracking-wider leading-tight animatedslide playflair">
             Explore All Corners of The World With Us
           </div>
         </div>
-        <div className="w-11/12 text-gray-600 animatedslide">
+        <div className="w-11/12 text-gray-600 animatedslide  open-sans  ">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
           live in Bookmarksgrove right at the coast of the Semantics, a large

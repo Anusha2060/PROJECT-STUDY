@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Banner from "../Components/UI/banner";
 import Blog from "../Components/Pagecomponents/Home/Blog";
-import blogone from "../assets/n2.jpg";
+import blog1 from '../assets/blog1.jpg';
+import blog2 from '../assets/blog2.jpg';
+import blog3 from '../assets/blog3.jpg';
+import blog4 from '../assets/blog4.jpg';
+import blog5 from '../assets/blog5.jpg';
+import blog6 from '../assets/blog6.jpg';
+import blog7 from '../assets/blog7.jpg';
+import blog8 from '../assets/blog8.jpg';
 
 function Blogs() {
   useEffect(() => {
@@ -10,7 +17,7 @@ function Blogs() {
   const [pagee, setpagee] = useState(0);
   const blogdata = [
     {
-      image: blogone,
+      image: blog1,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -21,7 +28,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog2,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -32,7 +39,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog3,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -43,7 +50,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog4,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -54,7 +61,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog5,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -65,7 +72,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog6,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -76,7 +83,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog7,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -87,7 +94,7 @@ function Blogs() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog8,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -103,7 +110,7 @@ function Blogs() {
     <div className="grid gap-28">
       <Banner>
         <div className="h-full w-full flex flex-col justify-center items-center gap-3 text-white">
-          <div className="capitalize text-5xl font-bold">Blogs</div>
+          <div className="capitalize text-5xl font-bold playflair">Blogs</div>
           <div className="w-5/12 text-md text-center">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.

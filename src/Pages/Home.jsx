@@ -6,7 +6,10 @@ import Services from "../Components/Pagecomponents/Home/Services";
 import TestimonialsandFAQ from "../Components/Pagecomponents/Home/TestimonialsandFAQ";
 import Blog from "../Components/Pagecomponents/Home/Blog";
 import Aboutsection from "../Components/Pagecomponents/Home/About";
-import blogone from "../assets/n2.jpg";
+import blog1 from '../assets/blog1.jpg';
+import blog2 from '../assets/blog2.jpg';
+import blog3 from '../assets/blog3.jpg';
+import blog4 from '../assets/blog4.jpg';
 import { useEffect } from "react";
 function Home() {
   useEffect(() => {
@@ -14,7 +17,7 @@ function Home() {
   }, [])
   const blogdata = [
     {
-      image: blogone,
+      image: blog1,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -25,7 +28,7 @@ function Home() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog2,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -36,7 +39,7 @@ function Home() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog3,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -47,7 +50,7 @@ function Home() {
         "Vokalia and Consonantia, there live the blind texts. Separated they live.",
     },
     {
-      image: blogone,
+      image: blog4,
       date: new Date().toLocaleString("default", {
         year: "numeric",
         month: "long",
@@ -62,7 +65,7 @@ function Home() {
     <div className="grid gap-28" >
       <Banner>
         <div className="h-full w-4/12 justify-center flex flex-col gap-10 text-white ">
-          <div className="text-5xl font-bold capitalize leading-normal">
+          <div className="text-5xl font-bold capitalize leading-normal playflair">
             <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('It is Better to Travel Well Than to Arrive ')
@@ -85,7 +88,7 @@ function Home() {
                 <IoMdPlay />
               </div>
             </div>
-            <div className="text-2xl  capitalize"> watch now</div>
+            <div className="text-2xl  capitalize playflair"> watch now</div>
           </div>
         </div>
       </Banner>
@@ -95,7 +98,7 @@ function Home() {
       <Services/>
       <TestimonialsandFAQ/>
       <div className="flex flex-col gap-14 w-10/12 mx-auto">
-        <div className=" flex flex-col gap-1">
+        <div className=" flex flex-col gap-1 playflair">
           <div className= "text-orange-500 font-semibold text-2xl ">BLOG</div>
           <div className="text-6xl font-bold ">Recent Posts</div>
         </div>

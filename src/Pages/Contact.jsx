@@ -33,7 +33,7 @@ function Contact() {
     <div className='grid gap-36'>
         <Banner>
         <div  className="h-full w-full flex flex-col justify-center items-center gap-3 text-white">
-          <div className="capitalize text-5xl font-bold">Contact us</div>
+          <div className="capitalize text-5xl font-bold playflair">Contact us</div>
           <div className="w-5/12 text-md text-center">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
@@ -43,8 +43,8 @@ function Contact() {
       <div className='grid grid-cols-5 w-10/12 mx-auto'>
         <div className='flex flex-col gap-20 col-span-2'>
           <div className='flex flex-col gap-1'>
-            <div className='text-2xl font-bold text-orange-500'>Contact</div>
-            <div className='text-6xl font-semibold'>Get in touch</div>
+            <div className='text-2xl font-bold text-orange-500 playflair'>Contact</div>
+            <div className='text-6xl font-semibold playflair'>Get in touch</div>
           </div>
             <div className='flex flex-col gap-6'>
               {
@@ -55,7 +55,7 @@ function Contact() {
                       {val.icon}
                     </div>
                     <div className="flex flex-col gap-1">
-                      <div className='text-lg font-medium text-gray-800'>{val.title}</div>
+                      <div className='text-lg font-medium text-gray-800 playflair'>{val.title}</div>
                       <div className='text-gray-700 text-md'>{val.description}</div>
                       {
                         val.time && 

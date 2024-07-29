@@ -7,7 +7,7 @@ function Footer() {
     <div className="h-fit mt-28  bg-gray-200">
       <div className=" bg-orange-500 flex">
         <div className="w-10/12 mx-auto py-12 flex justify-between items-center text-white ">
-          <div className="text-3xl font-semibold">
+          <div className="text-3xl font-semibold playflair">
             Begin your adventurous journey here.
           </div>
           <div className="w-fit h-fit px-8 py-2 rounded-full border border-white capitalize  hover:bg-white hover:text-orange-500 hover:font-medium
@@ -19,12 +19,12 @@ function Footer() {
       <div className="py-16 bg-#EFEFEF">
         <div className="w-10/12 mx-auto grid grid-cols-8 gap-10 ">
           <div className="col-span-3 grid gap-5">
-            <div className="text-2xl font-semibold">About Passport</div>
+            <div className="text-2xl font-semibold playflair">About Passport</div>
             <div className="text-gray-500 ">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </div>
-            <div className="text-2xl font-semibold mt-4 ">Connect</div>
+            <div className="text-2xl font-semibold mt-4 playflair">Connect</div>
             <div className="flex items-center gap-2 cursor-pointer  ">
               <div className="h-10 w-10 hover:bg-orange-500 transition-all ease-in-out duration-500 delay-75 rounded-full bg-gray-500 flex items-center justify-center text-white">
                 <FaInstagram />
@@ -45,7 +45,7 @@ function Footer() {
           </div>
 
           <div className="col-span-1 flex flex-col gap-5 ">
-            <div className="capitalize text-2xl font-semibold">links</div>
+            <div className="capitalize text-2xl font-semibold playflair">links</div>
             <div className=" flex flex-col gap-2 text-gray-500 cursor-pointer">
               <div>About Us </div>
               <div>Services</div>
@@ -55,8 +55,8 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-span-1 flex flex-col gap-5 ">
-            <div className="capitalize text-2xl font-semibold">Company</div>
+          <div className="col-span-1 flex flex-col gap-5  ">
+            <div className="capitalize text-2xl font-semibold playflair">Company</div>
             <div className=" flex flex-col gap-2 text-gray-500 cursor-pointer">
               <div>About Us </div>
               <div>Services</div>
@@ -67,7 +67,7 @@ function Footer() {
           </div>
 
           <div className="col-span-3 flex flex-col gap-5">
-            <div className="capitalize text-2xl font-semibold ">contact</div>
+            <div className="capitalize text-2xl font-semibold  ">contact</div>
             <div className="flex flex-col gap-2 text-gray-500">
               <div>43 Raymouth Rd. Baltemoer, London 3910</div>
               <div className="cursor-pointer">+1(123)-456-7890</div>
@@ -77,7 +77,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className=" text-center text-gray-500 py-8 flex justify-center items-center font-sans">
+      <div className=" text-center text-gray-500 py-8 flex justify-center items-center font-sans ">
         Copyright © 2024 All rights reserved{" "}
       </div>
     </div>
