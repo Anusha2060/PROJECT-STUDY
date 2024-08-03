@@ -21,7 +21,7 @@ function Contact() {
     {
       icon: <CiLocationOn />,
       title: "Email:",
-      description: "@Colorlib",
+      description: "wanderlustadv@gmail.com",
     },
     {
       icon: <CiLocationOn />,
@@ -104,5 +104,4 @@ function Contact() {
     </div>
   );
 }
-
 export default Contact;
