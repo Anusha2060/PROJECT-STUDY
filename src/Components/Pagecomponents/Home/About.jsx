@@ -6,7 +6,9 @@ function Aboutsection() {
     <div className="w-10/12 mx-auto grid grid-cols-2 gap-5">
       <div className="flex flex-col justify-between gap-6 ">
         <div className="flex flex-col capitalize">
-          <div className="text-xl text-orange-500 font-medium animatedslide playflair">about us</div>
+          <div className="text-xl text-orange-500 font-medium animatedslide playflair">
+            about us
+          </div>
           <div className="text-5xl font-bold tracking-wider leading-tight animatedslide playflair">
             Explore All Corners of The World With Us
           </div>
@@ -21,8 +23,10 @@ function Aboutsection() {
           roasted parts of sentences fly into your mouth.
         </div>
 
-        <div className="w-fit h-fit px-8 py-2 mt-4 hover:bg-white hover:text-orange-500 hover:font-medium
-         transition-all ease-in-out duration-700 delay-75 cursor-pointer rounded-full border border-orange-500 capitalize bg-orange-500 text-white animatedslide ">
+        <div
+          className="w-fit h-fit px-8 py-2 mt-4 hover:bg-white hover:text-orange-500 hover:font-medium
+         transition-all ease-in-out duration-700 delay-75 cursor-pointer rounded-full border border-orange-500 capitalize bg-orange-500 text-white animatedslide "
+        >
           read more
         </div>
       </div>

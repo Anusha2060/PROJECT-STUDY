@@ -10,8 +10,10 @@ function Footer() {
           <div className="text-3xl font-semibold playflair">
             Begin your adventurous journey here.
           </div>
-          <div className="w-fit h-fit px-8 py-2 rounded-full border border-white capitalize  hover:bg-white hover:text-orange-500 hover:font-medium
-         transition-all ease-in-out duration-700 delay-75 cursor-pointer  bg-orange-500 text-white ">
+          <div
+            className="w-fit h-fit px-8 py-2 rounded-full border border-white capitalize  hover:bg-white hover:text-orange-500 hover:font-medium
+         transition-all ease-in-out duration-700 delay-75 cursor-pointer  bg-orange-500 text-white "
+          >
             get started
           </div>
         </div>
@@ -19,7 +21,9 @@ function Footer() {
       <div className="py-16 bg-#EFEFEF">
         <div className="w-10/12 mx-auto grid grid-cols-8 gap-10 ">
           <div className="col-span-3 grid gap-5">
-            <div className="text-2xl font-semibold playflair">About Passport</div>
+            <div className="text-2xl font-semibold playflair">
+              About Passport
+            </div>
             <div className="text-gray-500 ">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
@@ -45,7 +49,9 @@ function Footer() {
           </div>
 
           <div className="col-span-1 flex flex-col gap-5 ">
-            <div className="capitalize text-2xl font-semibold playflair">links</div>
+            <div className="capitalize text-2xl font-semibold playflair">
+              links
+            </div>
             <div className=" flex flex-col gap-2 text-gray-500 cursor-pointer">
               <div>About Us </div>
               <div>Services</div>
@@ -56,7 +62,9 @@ function Footer() {
           </div>
 
           <div className="col-span-1 flex flex-col gap-5  ">
-            <div className="capitalize text-2xl font-semibold playflair">Company</div>
+            <div className="capitalize text-2xl font-semibold playflair">
+              Company
+            </div>
             <div className=" flex flex-col gap-2 text-gray-500 cursor-pointer">
               <div>About Us </div>
               <div>Services</div>

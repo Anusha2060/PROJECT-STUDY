@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { IoMdAdd } from "react-icons/io";
 import { FaMinus } from "react-icons/fa6";
-import person1 from '../../../assets/person1.jpg';
-import person2 from '../../../assets/person2.jpg';
-import person3 from '../../../assets/person3.jpg';
+import person1 from "../../../assets/person1.jpg";
+import person2 from "../../../assets/person2.jpg";
+import person3 from "../../../assets/person3.jpg";
 
 function TestimonialsandFAQ() {
   const [show, setshow] = useState(0);
@@ -28,20 +28,20 @@ function TestimonialsandFAQ() {
   ];
   const Testimonialsdata = [
     {
-      name: "Anusha Gharti Chhetri",
+      name: "Berry",
       position: "CEO at ABC",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
       image: person1,
     },
     {
-      name: "Kisan Mahat",
-      position: "Boss at ABC",
+      name: "Jerry",
+      position: "Manager at ABC",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
       image: person2,
     },
     {
-      name: "ABCDEFGHIJK SANDNEUHDWDAK",
-      position: "XNSUCUWJNSZ at  chehj",
+      name: "Terry",
+      position: "Employee at ABC",
       msg: '"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”',
       image: person3,
     },
@@ -68,7 +68,9 @@ function TestimonialsandFAQ() {
           <div className="text-orange-500 uppercase font-bold text-xl animatedslide playflair">
             Happy customer
           </div>
-          <div className="uppercase text-4xl font-bold animatedslide playflair">Testimonials</div>
+          <div className="uppercase text-4xl font-bold animatedslide playflair">
+            Testimonials
+          </div>
         </div>
         <div className="relative overflow-clip h-full w-full animatedslide">
           {Testimonialsdata.map((val, i) => {
@@ -91,7 +93,9 @@ function TestimonialsandFAQ() {
                   <div className="text-orange-500 text-2xl font-semibold playflair ">
                     {val.name}
                   </div>
-                  <div className="text-gray-700 text-sm playflair">{val.position}</div>
+                  <div className="text-gray-700 text-sm playflair">
+                    {val.position}
+                  </div>
                 </div>
                 <div className="relative mt-3 w-11/12">
                   <div className="text-5xl font-bold rotate-6 absolute -top-8 left-0">
@@ -104,14 +108,15 @@ function TestimonialsandFAQ() {
           })}
         </div>
         <div className="flex gap-3 items-center">
-          {
-            Testimonialsdata.map((val,i) => {
-            return(
-
-              <div className={`${i==test?'bg-orange-500':'bg-white'} h-3 w-3 rounded-full border border-orange-500`}></div>
-            )
-            })
-          }
+          {Testimonialsdata.map((val, i) => {
+            return (
+              <div
+                className={`${
+                  i == test ? "bg-orange-500" : "bg-white"
+                } h-3 w-3 rounded-full border border-orange-500`}
+              ></div>
+            );
+          })}
         </div>
       </div>
 
@@ -143,7 +148,9 @@ function TestimonialsandFAQ() {
                   }`}
                 >
                   <div>{show == i ? <FaMinus /> : <IoMdAdd />}</div>
-                  <div className="first-letter:capitalize playflair">{val.title}</div>
+                  <div className="first-letter:capitalize playflair">
+                    {val.title}
+                  </div>
                 </div>
                 <div
                   className={`px-4 pt-2 text-gray-600 ${

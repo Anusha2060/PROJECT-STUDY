@@ -1,7 +1,6 @@
 import React from "react";
 import blogone from "../../../assets/n2.jpg";
-function Blog( {blogdata}) {
- 
+function Blog({ blogdata }) {
   return (
     <div className="animatedslide">
       <div className="grid grid-cols-4 gap-10">

@@ -2,68 +2,68 @@ import React from "react";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import img1 from '../../../assets/image0.jpeg';
-import img2 from '../../../assets/image1.jpeg';
-import img3 from '../../../assets/image3.jpeg';
-import img4 from '../../../assets/image5.jpeg';
-import img5 from '../../../assets/image6.jpeg';
-import img6 from '../../../assets/image7.jpeg';
+import img1 from "../../../assets/image0.jpeg";
+import img2 from "../../../assets/image1.jpeg";
+import img3 from "../../../assets/image3.jpeg";
+import img4 from "../../../assets/image5.jpeg";
+import img5 from "../../../assets/image6.jpeg";
+import img6 from "../../../assets/image7.jpeg";
 
 function Services() {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      slidesToSlide: 2, // optional, default to 1.
+      slidesToSlide: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
+      slidesToSlide: 1,
     },
   };
   const Servicedata = [
     {
       image: img1,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
     {
       image: img2,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
     {
       image: img3,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
     {
       image: img4,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
     {
       image: img5,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
     {
       image: img6,
-      title: "Anusha GC",
+      title: "Explore Country",
       description:
-
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."    },
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    },
   ];
 
   return (
@@ -93,11 +93,11 @@ function Services() {
         </div>
       </div>
       <div className="grid animatedslide">
-        <Carousel 
-        autoPlay={true}
-        draggable={true}
-        infinite={true}
-        autoPlaySpeed={3000}
+        <Carousel
+          autoPlay={true}
+          draggable={true}
+          infinite={true}
+          autoPlaySpeed={3000}
           responsive={responsive}
         >
           {Servicedata.map((val, i) => {

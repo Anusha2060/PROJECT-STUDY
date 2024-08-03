@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 function App() {
   const [count, setCount] = useState(0);
- 
+
   return (
     <div className="">
       <Router>
@@ -24,8 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/blogs" element={<Blogs/>} />
-
+            <Route path="/blogs" element={<Blogs />} />
           </Routes>
         </div>
         <div className="relative">
